@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Traversing</title>
+    <script>
+        let Array = [9, 5, 1, 7, 8, 45, 68, 77, 41]
+        //----------Traversing
+        // for(let i =0; i<Array.length; i++){
+        //     document.write(`${i} : ${Array[i]} <br>`)
+        // }
+        //----------Accessing
+        // let x = 2
+        // document.write(Array[x])
+
+        function getElement() {
+            let el = document.getElementById('elem').value
+
+            if (el < Array.length && typeof parseInt(el) === 'number' && el > 0) {
+                alert(Array[el])
+            } else (
+                alert('please enter valid index')
+            )
+        }
+
+    </script>
+</head>
+
+<body style="background-color: #313131;color: #ffffffc2;">
+    <h1>Array Traversing</h1>
+    <form onsubmit="getElement()">
+
+        <input type="text" id="elem">
+        <button>GetElement</button>
+
+    </form>
+</body>
+
+</html>
