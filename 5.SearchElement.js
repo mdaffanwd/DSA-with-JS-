@@ -12,10 +12,10 @@ Search Element in Array
 /*
 let arr = [20, 10, 30, 40, 50, 60, 10]
 let item = 10;
-// let index = undefined;
-let index = arr.indexOf(10)
-let index2 = arr.indexOf(10, index + 1)
-// let index2 = undefined;
+let index = undefined;
+// let index = arr.indexOf(10)
+// let index2 = arr.indexOf(10, index + 1)
+let index2 = undefined;
 console.log(arr.indexOf(10));
 
 
