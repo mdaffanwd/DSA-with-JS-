@@ -28,6 +28,7 @@ console.log(arr);
 */
 
 // ------- 5.Search Element in Array.
+/*
 let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 70];
 let item = 70;
 let index, index1;
@@ -43,3 +44,4 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 console.log(index, index1);
+*/
