@@ -55,7 +55,7 @@ console.log(data);
 let data = [60, 20, 30, 50, 40]
 let position = 2;
 let newEl = 22222;
-for (let i = data.length; i >= 0; i--) {
+for (let i = data.length - 1; i >= 0; i--) {
     console.log(i);
     if (i >= position) {
         data[i + 1] = data[i]
