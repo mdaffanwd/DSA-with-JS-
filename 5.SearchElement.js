@@ -9,15 +9,16 @@ Search Element in Array
         *. Shortcut for Delete element(Default Function).
 */
 
+/*
 let arr = [20, 10, 30, 40, 50, 60, 10]
 let item = 10;
 // let index = undefined;
 let index = arr.indexOf(10)
 let index2 = arr.indexOf(10, index + 1)
 // let index2 = undefined;
-// console.log(arr.indexOf(10));
+console.log(arr.indexOf(10));
 
-/*
+
 for (let i = 0; i < arr.length; i++) {
         // console.log(i);
         // console.log(i, arr[i]);
@@ -31,8 +32,28 @@ for (let i = 0; i < arr.length; i++) {
                 }
         }
 }
-*/
 // if(index !== undefined && index2 !== undefined){
 //         console.log(index, index2);
 // }
 console.log(index, index2);
+
+// ------------ Deletion of Element -
+arr.splice(1, 1)
+console.log(arr);
+
+*/
+// ----Practice -
+let arr = [20, 10, 30, 40, 50, 60];
+let item = 60;
+let item2 = 50;
+// let i = undefined
+// let i2 = undefined;
+for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === item) {
+                console.log(i);
+        }
+        if (arr[i] === item2) {
+                console.log(i, i + 1);
+                break;
+        }
+}
